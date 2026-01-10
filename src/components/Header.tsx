@@ -1,9 +1,9 @@
 const Header = () => {
   return (
     <header className="bg-[#161410]">
-      <div className="w-full max-w-184.5 p-3 md:p-0 mx-auto flex justify-between items-center">
+      <div className="mx-auto flex w-full max-w-184.5 items-center justify-between p-3 md:p-0">
         <img src="./logo.png" alt="logo" />
-        <div className="w-32.5 h-8.75 flex rounded justify-center items-center cursor-pointer bg-[#F2DAAC]">
+        <div className="flex h-8.75 w-32.5 cursor-pointer items-center justify-center rounded bg-[#F2DAAC]">
           Entrar
         </div>
       </div>
